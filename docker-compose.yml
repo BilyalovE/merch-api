@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  stock-api:
+    image: 'merch-api:latest'
+    hostname: merch_api
+    ports:
+      - "8080:80"
+  
